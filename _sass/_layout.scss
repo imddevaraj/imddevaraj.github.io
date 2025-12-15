@@ -1,0 +1,62 @@
+/* Header */
+.site-header {
+  padding: $spacing-md 0;
+  border-bottom: 1px solid transparent; /* Prepare for sticky header logic if needed */
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-family: $font-heading;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: $text-primary;
+  letter-spacing: -0.02em;
+  
+  &:hover {
+    color: $text-primary;
+    text-decoration: none;
+  }
+  
+  .dot {
+    color: $accent-color;
+  }
+}
+
+.nav-links {
+  a {
+    margin-left: $spacing-md;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: $text-secondary;
+    
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+/* Footer */
+.site-footer {
+  margin-top: $spacing-xl;
+  padding: $spacing-lg 0;
+  border-top: 1px solid $border-color;
+  color: $text-secondary;
+  font-size: 0.9rem;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* Page Content */
+.page-content {
+  padding-top: $spacing-lg;
+  min-height: 60vh;
+}

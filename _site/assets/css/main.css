@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* Header */
+.site-header { padding: 2rem 0; border-bottom: 1px solid transparent; /* Prepare for sticky header logic if needed */ }
+
+.site-nav { display: flex; justify-content: space-between; align-items: center; }
+
+.site-title { font-family: "Inter", system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 1.5rem; color: #f1f5f9; letter-spacing: -0.02em; }
+.site-title:hover { color: #f1f5f9; text-decoration: none; }
+.site-title .dot { color: #38bdf8; }
+
+.nav-links a { margin-left: 2rem; font-size: 0.95rem; font-weight: 500; color: #94a3b8; }
+.nav-links a:hover { color: #38bdf8; }
+
+/* Footer */
+.site-footer { margin-top: 8rem; padding: 4rem 0; border-top: 1px solid #334155; color: #94a3b8; font-size: 0.9rem; }
+.site-footer .container { display: flex; justify-content: space-between; align-items: center; }
+
+/* Page Content */
+.page-content { padding-top: 4rem; min-height: 60vh; }
+
+/* Hero Section */
+.hero { padding: 8rem 0; max-width: 800px; }
+
+.hero-title { font-size: 3.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 2rem; }
+.hero-title .highlight { color: #38bdf8; }
+
+.hero-subtitle { font-size: 1.25rem; color: #94a3b8; margin-bottom: 4rem; max-width: 600px; }
+
+/* Typing Effect (Simplified for now) */
+.typing-effect { border-bottom: 2px solid #38bdf8; }
+
+/* Buttons */
+.btn { display: inline-block; padding: 0.8rem 1.6rem; border-radius: 6px; font-weight: 600; text-decoration: none; transition: all 0.2s ease; margin-right: 1rem; font-size: 1rem; }
+
+.btn-primary { background-color: #38bdf8; color: #0f172a; }
+.btn-primary:hover { background-color: #0ea5e9; color: #0f172a; transform: translateY(-2px); }
+
+.btn-secondary { background-color: #1e293b; color: #f1f5f9; border: 1px solid #334155; }
+.btn-secondary:hover { border-color: #f1f5f9; background-color: #27354c; }
+
+/* Projects Grid */
+.projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+
+.project-card { background-color: #1e293b; border: 1px solid #334155; padding: 2rem; border-radius: 8px; transition: transform 0.2s ease, border-color 0.2s ease; }
+.project-card:hover { transform: translateY(-4px); border-color: #38bdf8; }
+.project-card h3 { margin-top: 0; font-size: 1.2rem; }
+.project-card p { font-size: 0.95rem; color: #94a3b8; margin-bottom: 1rem; }
+
+.project-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; }
+.project-tags span { font-size: 0.75rem; font-family: "JetBrains Mono", monospace; color: #38bdf8; background: rgba(56, 189, 248, 0.1); padding: 2px 8px; border-radius: 4px; }
+
+/* Skills Section */
+.skills-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 2rem; }
+
+.skill-category h4 { font-size: 1rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+.skill-category ul { list-style: none; padding: 0; }
+.skill-category ul li { margin-bottom: 0.5rem; font-size: 0.95rem; position: relative; padding-left: 1rem; }
+.skill-category ul li:before { content: "▹"; position: absolute; left: 0; color: #38bdf8; }
+
+/* Section Headings */
+.section-title { font-size: 1.8rem; margin-top: 8rem; margin-bottom: 2rem; border-left: 4px solid #38bdf8; padding-left: 1rem; }
+
+/* Reset & Base */
+:root { color-scheme: dark; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { background-color: #0f172a; color: #f1f5f9; font-family: "Inter", system-ui, -apple-system, sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+a { color: #38bdf8; text-decoration: none; transition: color 0.2s ease; }
+a:hover { color: #0ea5e9; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Inter", system-ui, -apple-system, sans-serif; color: #f1f5f9; line-height: 1.2; margin-bottom: 1rem; }
+
+code { font-family: "JetBrains Mono", monospace; background: #334155; padding: 0.2em 0.4em; border-radius: 4px; font-size: 0.9em; }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 0 1rem; }

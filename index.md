@@ -1,6 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
-Welcome to my blog! I write about my professional interests and projects.
-Check out my [GitHub profile](https://github.com/imddevaraj).
+<!-- Additional content below the hero can go here -->

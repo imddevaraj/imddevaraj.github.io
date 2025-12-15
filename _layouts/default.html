@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav">
+        <a href="{{ "/" | relative_url }}" class="site-title">Devaraj<span class="dot">.</span></a>
+        <div class="nav-links">
+          <a href="{{ "/about" | relative_url }}">About</a>
+          <a href="{{ "/projects" | relative_url }}">Projects</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content" aria-label="Content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Built with custom Jekyll.</p>
+      <div class="social-links">
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

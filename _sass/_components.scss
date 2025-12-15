@@ -1,0 +1,156 @@
+/* Hero Section */
+.hero {
+  padding: $spacing-xl 0;
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: $spacing-md;
+  
+  .highlight {
+    color: $accent-color;
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: $text-secondary;
+  margin-bottom: $spacing-lg;
+  max-width: 600px;
+}
+
+/* Typing Effect (Simplified for now) */
+.typing-effect {
+  border-bottom: 2px solid $accent-color;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-right: $spacing-sm;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: $accent-color;
+  color: $bg-color;
+  
+  &:hover {
+    background-color: $accent-hover;
+    color: $bg-color;
+    transform: translateY(-2px);
+  }
+}
+
+.btn-secondary {
+  background-color: $surface-color;
+  color: $text-primary;
+  border: 1px solid $border-color;
+  
+  &:hover {
+    border-color: $text-primary;
+    background-color: lighten($surface-color, 5%);
+  }
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: $spacing-md;
+  margin-top: $spacing-md;
+}
+
+.project-card {
+  background-color: $surface-color;
+  border: 1px solid $border-color;
+  padding: $spacing-md;
+  border-radius: 8px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-4px);
+    border-color: $accent-color;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  p {
+    font-size: 0.95rem;
+    color: $text-secondary;
+    margin-bottom: $spacing-sm;
+  }
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+  margin-top: auto;
+  
+  span {
+    font-size: 0.75rem;
+    font-family: $font-mono;
+    color: $accent-color;
+    background: rgba($accent-color, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+}
+
+/* Skills Section */
+.skills-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $spacing-md;
+  margin-top: $spacing-md;
+}
+
+.skill-category {
+  h4 {
+    font-size: 1rem;
+    color: $text-secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: $spacing-sm;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    
+    li {
+      margin-bottom: $spacing-xs;
+      font-size: 0.95rem;
+      position: relative;
+      padding-left: 1rem;
+      
+      &:before {
+        content: "▹";
+        position: absolute;
+        left: 0;
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+/* Section Headings */
+.section-title {
+  font-size: 1.8rem;
+  margin-top: $spacing-xl;
+  margin-bottom: $spacing-md;
+  border-left: 4px solid $accent-color;
+  padding-left: $spacing-sm;
+}

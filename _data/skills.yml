@@ -1,0 +1,11 @@
+- category: "Languages"
+  items: ["Python", "Go", "JavaScript/TypeScript", "C++", "SQL"]
+
+- category: "Frameworks & Libraries"
+  items: ["React", "FastAPI", "Django", "Next.js", "TailwindCSS"]
+
+- category: "Infrastructure & Cloud"
+  items: ["AWS", "Docker", "Kubernetes", "Terraform", "GitHub Actions"]
+
+- category: "Tools & Concepts"
+  items: ["Git", "CI/CD", "Microservices", "REST/gRPC", "System Design"]

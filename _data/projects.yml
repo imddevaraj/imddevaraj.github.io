@@ -1,0 +1,14 @@
+- title: "PACs AI Integration"
+  description: "AI-powered access control system integration handling real-time authentication events and anomaly detection."
+  url: "#"
+  tags: ["Python", "FastAPI", "TensorFlow", "Redis"]
+
+- title: "Identity Management Platform"
+  description: "Cloud-native identity solution for enterprise scale, managing over 50k identities with complex RBAC."
+  url: "#"
+  tags: ["Go", "Kubernetes", "PostgreSQL", "React"]
+
+- title: "Smart City IoT Bridge"
+  description: "Middleware connecting legacy IoT sensors to modern cloud infrastructure via MQTT and Kafka."
+  url: "#"
+  tags: ["Node.js", "Kafka", "AWS IoT", "Docker"]
