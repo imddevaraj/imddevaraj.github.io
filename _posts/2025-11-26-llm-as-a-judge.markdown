@@ -5,7 +5,7 @@ date:   2025-11-26 10:00:00 +0000
 categories: [ai, llm, engineering]
 description: "Why the next wave of AI is about models that evaluate answers, not just generate them."
 original_url: "https://www.linkedin.com/pulse/llm-judge-practical-human-guide-engineers-devaraj-durairaj-nzr2c/"
-image: "/assets/images/llm_judge_thumb.png"
+image: "/assets/images/blogs/llm-as-a-judge/thumbnail.png"
 ---
 
 Over the last few years, most discussions around **Large Language Models** have focused on how well they *generate* things — text, code, explanations, even entire product workflows. But in my day-to-day work with AI systems, I’ve noticed something far more interesting:
