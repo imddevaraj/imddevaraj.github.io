@@ -1,0 +1,11 @@
+title: Devaraj's Blog
+email: devaraj.durairaj@hidglobal.com
+description: >- # this means to ignore newlines until "baseurl:"
+  My professional blog and portfolio.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://imddevaraj.github.io" # the base hostname & protocol for your site
+github_username: imddevaraj
+
+theme: minima
+plugins:
+  - jekyll-feed
