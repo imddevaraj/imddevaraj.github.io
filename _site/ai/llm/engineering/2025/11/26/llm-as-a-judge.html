@@ -31,20 +31,49 @@
 
   <main class="page-content" aria-label="Content">
     <div class="container">
-      <p>Over the last few years, most discussions around Large Language Models have focused on how well they generate things — text, code, explanations, even entire product workflows. But in my day-to-day work with AI systems, I’ve noticed something far more interesting:</p>
+      <p>Over the last few years, most discussions around <strong>Large Language Models</strong> have focused on how well they <em>generate</em> things — text, code, explanations, even entire product workflows. But in my day-to-day work with AI systems, I’ve noticed something far more interesting:</p>
 
-<p>If the first wave of AI was about “LLMs that answer questions,” the next wave is increasingly about “LLMs that evaluate answers.” In other words, AI is slowly becoming both the student and the examiner.</p>
+<blockquote>
+  <p>If the first wave of AI was about <strong>“LLMs that answer questions,”</strong> the next wave is increasingly about <strong>“LLMs that evaluate answers.”</strong> In other words, AI is slowly becoming both the student and the examiner.</p>
+</blockquote>
 
 <h2 id="the-shift-to-evaluation">The Shift to Evaluation</h2>
 
-<p>Why does this matter? As we move from chatbots to agents that take action, trust becomes the bottleneck. We can’t just hope the model is right; we need systems that can check their own work or the work of others. <strong>LLM-as-a-Judge</strong> is the architectural pattern where we use one model to grade the quality, safety, and relevance of another model’s output.</p>
+<p>Why does this matter? As we move from chatbots to agents that take action, <span class="highlight-text">trust becomes the bottleneck</span>. We can’t just hope the model is right; we need systems that can check their own work or the work of others.</p>
 
-<h3 id="key-use-cases">Key Use Cases</h3>
-<ol>
+<p><strong>LLM-as-a-Judge</strong> is the architectural pattern where we use one model to grade the quality, safety, and relevance of another model’s output.</p>
+
+<h3 id="key-use-cases-bulleted-list">Key Use Cases (Bulleted List)</h3>
+
+<ul>
   <li><strong>Regression Testing</strong>: Automatically checking if a new prompt version broke existing functionality.</li>
   <li><strong>Safety Guardrails</strong>: Real-time evaluation of responses before they reach the user.</li>
   <li><strong>Data Labeling</strong>: Scaling the creation of training datasets by using AI to label data with high confidence.</li>
+</ul>
+
+<h3 id="evaluation-criteria-numbered-list">Evaluation Criteria (Numbered List)</h3>
+
+<ol>
+  <li><strong>Correctness</strong>: Does the answer match the ground truth?</li>
+  <li><strong>Relevance</strong>: Is the answer actually addressing the user’s query?</li>
+  <li><strong>Tone</strong>: Is the response polite and professional?</li>
+  <li><strong>Safety</strong>: Does the response contain PII or harmful content?</li>
 </ol>
+
+<h2 id="code-example-simple-evaluation-prompt">Code Example: Simple Evaluation Prompt</h2>
+
+<p>Here is how you might structure a “Judge” prompt (Indented/Code Block):</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">evaluate_response</span><span class="p">(</span><span class="n">question</span><span class="p">,</span> <span class="n">answer</span><span class="p">):</span>
+    <span class="n">system_prompt</span> <span class="o">=</span> <span class="s">"""
+    You are an expert evaluator. 
+    Grade the following answer on a scale of 1-5 
+    based on helpfulness and accuracy.
+    """</span>
+    
+    <span class="c1"># ... call LLM API ...
+</span>    <span class="k">return</span> <span class="n">score</span>
+</code></pre></div></div>
 
 <p>The future of engineering with AI isn’t just about prompt engineering; it’s about <strong>evaluation engineering</strong>.</p>
 
