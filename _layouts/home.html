@@ -4,17 +4,20 @@ layout: default
 
 <div class="home">
   <section class="hero">
-    <h1 class="hero-title">
-      Hello, I'm <span class="highlight">Devaraj</span>.
-      <br>
-      I lead <span class="typing-effect">product innovation</span>.
-    </h1>
-    <p class="hero-subtitle">
-      Vice President of Product Management at HID Global. Driving the future of Physical Access Control and Identity Assurance.
-    </p>
-    <div class="hero-cta">
-      <a href="{{ "/projects" | relative_url }}" class="btn btn-primary">View Projects</a>
-      <a href="{{ "/about" | relative_url }}" class="btn btn-secondary">More About Me</a>
+    <div class="hero-content">
+      <img src="{{ "/assets/images/profile.png" | relative_url }}" alt="Devaraj Durairaj" class="profile-img">
+      <h1 class="hero-title">
+        Hello, I'm <span class="highlight">Devaraj</span>.
+        <br>
+        I lead <span class="typing-effect">product innovation</span>.
+      </h1>
+      <p class="hero-subtitle">
+        Vice President of Product Management at HID Global. Driving the future of Physical Access Control and Identity Assurance.
+      </p>
+      <div class="hero-cta">
+        <a href="{{ "/projects" | relative_url }}" class="btn btn-primary">View Projects</a>
+        <a href="{{ "/about" | relative_url }}" class="btn btn-secondary">More About Me</a>
+      </div>
     </div>
   </section>
   
@@ -53,7 +56,17 @@ layout: default
 
   <div class="blog-posts">
     <h2 class="section-title">Latest Thoughts</h2>
-    {{ content }}
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li class="post-item">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+        <p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
   
 </div>

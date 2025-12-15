@@ -1,7 +1,26 @@
 /* Hero Section */
 .hero {
   padding: $spacing-xl 0;
-  max-width: 800px;
+  max-width: 900px;
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column; /* Mobile first */
+    gap: $spacing-md;
+    
+    @media (min-width: 768px) {
+       /* Optional: Layout tweak for desktop if side-by-side desired */
+    }
+  }
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid $accent-color;
+  object-fit: cover;
+  margin-bottom: $spacing-sm;
 }
 
 .hero-title {
@@ -153,4 +172,29 @@
   margin-bottom: $spacing-md;
   border-left: 4px solid $accent-color;
   padding-left: $spacing-sm;
+}
+
+/* Sample Blog List */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: $spacing-md;
+  
+  h3 {
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+  }
+  
+  .post-meta {
+    font-size: 0.85rem;
+    color: $text-secondary;
+    font-family: $font-mono;
+  }
+  
+  p {
+    color: $text-secondary;
+  }
 }

@@ -59,4 +59,9 @@
 .page-content {
   padding-top: $spacing-lg;
   min-height: 60vh;
+  
+  .container {
+    /* Ensure container inherits global max-width */
+    width: 100%; 
+  }
 }
