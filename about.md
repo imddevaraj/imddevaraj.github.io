@@ -9,30 +9,37 @@ permalink: /about/
 <h1>About Me</h1>
 
 <p class="lead" style="font-size: 1.25rem; color: #94a3b8; margin-bottom: 2rem;">
-  I am a software engineer passionate about distributed systems, cloud architecture, and building tools that developers love.
+  I am a Product Leader and Technologist driving innovation in Physical Access Control and Identity Assurance. Currently serving as Vice President of Product Management at HID Global.
 </p>
 
 ## Experience
 
-### Senior Software Engineer @ TechCorp
-_2022 - Present_
-- Architected a microservices-based payment gateway processing $1M+ daily.
-- Led the migration from legacy monolith to Kubernetes.
+### Vice President, Product Management - PACS @ HID Global
+_July 2024 - Present_
+- Leading the Physical Access Control Solutions business unit strategy.
+- Driving the evolution of access control through mobile credentials and cloud-connected hardware.
 
-### Software Engineer @ StartupXYZ
-_2019 - 2022_
-- Developed real-time collaboration features using WebSockets and Redis.
-- Optimized database queries reducing page load times by 40%.
+### Vice President, Product Management - EAT @ HID Global
+_Feb 2022 - July 2024_
+- Led the Extended Access Technologies division, focusing on embedded security and biometric authentication.
+- Championed the integration of RFID and biometrics into enterprise workflows.
+
+### Director, Product Management @ HID Global
+_2017 - 2022_
+- Managed global product portfolios for secure identity solutions.
 
 ## Education
 
-**B.S. Computer Science**
-University of Technology
-_2015 - 2019_
+**Master of Business Administration (MBA)**
+_Details to be added_
+
+**B.E. Computer Science / Engineering**
+_Details to be added_
 
 ## Connect
 
-I'm always open to discussing new projects or opportunities.
+I'm passionate about the intersection of security, hardware, and user experience.
+- [LinkedIn](https://www.linkedin.com/in/devarajit/)
 - [GitHub](https://github.com/{{ site.github_username }})
 - [Email](mailto:{{ site.email }})
 

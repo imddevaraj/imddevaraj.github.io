@@ -1,11 +1,11 @@
-- category: "Languages"
-  items: ["Python", "Go", "JavaScript/TypeScript", "C++", "SQL"]
+- category: "Product Leadership"
+  items: ["Product Strategy", "Roadmap Planning", "Go-to-Market", "Cross-functional Leadership"]
 
-- category: "Frameworks & Libraries"
-  items: ["React", "FastAPI", "Django", "Next.js", "TailwindCSS"]
+- category: "Domain Expertise"
+  items: ["Physical Access Control", "Biometrics", "RFID/SoC", "Identity Management (IAM)", "OSDP"]
 
-- category: "Infrastructure & Cloud"
-  items: ["AWS", "Docker", "Kubernetes", "Terraform", "GitHub Actions"]
+- category: "Technology Strategy"
+  items: ["Cloud Architecture (AWS/Azure)", "IoT & Embedded Systems", "Mobile Credentials", "SaaS Models"]
 
-- category: "Tools & Concepts"
-  items: ["Git", "CI/CD", "Microservices", "REST/gRPC", "System Design"]
+- category: "Tools & Methodologies"
+  items: ["Agile/Scrum", "Jira/Confluence", "Strategic Analysis", "System Design"]

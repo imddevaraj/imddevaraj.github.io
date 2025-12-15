@@ -1,14 +1,14 @@
-- title: "PACs AI Integration"
-  description: "AI-powered access control system integration handling real-time authentication events and anomaly detection."
+- title: "Next-Gen Reader Platform"
+  description: "Led the product strategy and launch of the signature line of readers, supporting mobile credentials, OSDP, and future-proof security standards."
   url: "#"
-  tags: ["Python", "FastAPI", "TensorFlow", "Redis"]
+  tags: ["Hardware", "NFC/BLE", "Product Strategy"]
 
-- title: "Identity Management Platform"
-  description: "Cloud-native identity solution for enterprise scale, managing over 50k identities with complex RBAC."
+- title: "Cloud Mobile Access"
+  description: "Architected the transition to cloud-managed credentials, enabling seamless over-the-air provisioning for millions of users."
   url: "#"
-  tags: ["Go", "Kubernetes", "PostgreSQL", "React"]
+  tags: ["Cloud", "SaaS", "Mobile Identity"]
 
-- title: "Smart City IoT Bridge"
-  description: "Middleware connecting legacy IoT sensors to modern cloud infrastructure via MQTT and Kafka."
+- title: "Biometric Authentication Suite"
+  description: "Directed the roadmap for extended access technologies, integrating fingerprint and facial recognition into enterprise security workflows."
   url: "#"
-  tags: ["Node.js", "Kafka", "AWS IoT", "Docker"]
+  tags: ["Biometrics", "AI/ML", "Enterprise Security"]
