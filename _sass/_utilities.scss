@@ -1,0 +1,150 @@
+// Utility Classes
+
+// Gradient Text
+.gradient-text {
+  background: $gradient-text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-accent {
+  background: $gradient-accent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+// Glassmorphism
+.glass {
+  background: rgba($surface-color, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-strong {
+  background: rgba($surface-color, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+// Background Patterns
+.bg-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bg-grid {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+// Gradient Borders
+.gradient-border {
+  position: relative;
+  border-radius: $radius-md;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: $gradient-accent;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+  }
+}
+
+// Shadows
+.shadow-soft {
+  box-shadow: $shadow-md;
+}
+
+.shadow-strong {
+  box-shadow: $shadow-lg;
+}
+
+.shadow-hover {
+  transition: box-shadow $transition-base;
+  
+  &:hover {
+    box-shadow: $shadow-xl;
+  }
+}
+
+// Spacing Utilities
+.mt-section { margin-top: $spacing-xl; }
+.mb-section { margin-bottom: $spacing-xl; }
+.py-section { 
+  padding-top: $spacing-xl; 
+  padding-bottom: $spacing-xl; 
+}
+
+// Text Utilities
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-gradient {
+  background: $gradient-text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+// Interactive Elements
+.interactive {
+  cursor: pointer;
+  transition: transform $transition-base, opacity $transition-base;
+  
+  &:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+  }
+  
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+// Focus Styles
+.focus-ring {
+  &:focus-visible {
+    outline: 2px solid $accent-color;
+    outline-offset: 2px;
+    border-radius: $radius-sm;
+  }
+}
+
+// Container Utilities
+.container-narrow {
+  max-width: $container-width-narrow;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacing-sm;
+  padding-right: $spacing-sm;
+}
+
+// Smooth Reveal
+.reveal {
+  overflow: hidden;
+  
+  > * {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: transform $transition-slow, opacity $transition-slow;
+  }
+  
+  &.active > * {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

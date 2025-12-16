@@ -1,6 +1,8 @@
 ---
 ---
 @import "variables";
+@import "animations";
+@import "utilities";
 @import "layout";
 @import "components";
 
@@ -15,41 +17,128 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $bg-color;
   color: $text-primary;
   font-family: $font-body;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
+// Custom Selection
+::selection {
+  background-color: rgba($accent-color, 0.3);
+  color: $text-primary;
+}
+
+::-moz-selection {
+  background-color: rgba($accent-color, 0.3);
+  color: $text-primary;
+}
+
+// Links with smooth gradient on hover
 a {
   color: $accent-color;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color $transition-base;
+  position: relative;
   
   &:hover {
-    color: $accent-hover;
+    color: $accent-light;
+  }
+  
+  &:focus-visible {
+    outline: 2px solid $accent-color;
+    outline-offset: 3px;
+    border-radius: 2px;
   }
 }
 
+// Typography
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-heading;
   color: $text-primary;
   line-height: 1.2;
   margin-bottom: $spacing-sm;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+p {
+  margin-bottom: $spacing-sm;
+}
+
+// Code blocks
 code {
   font-family: $font-mono;
-  background: $surface-check;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
+  background: $surface-color;
+  padding: 0.2em 0.5em;
+  border-radius: $radius-sm;
   font-size: 0.9em;
+  border: 1px solid $border-color;
 }
 
+pre {
+  background: $code-bg;
+  padding: $spacing-sm;
+  border-radius: $radius-md;
+  overflow-x: auto;
+  border: 1px solid $border-color;
+  
+  code {
+    background: transparent;
+    padding: 0;
+    border: none;
+  }
+}
+
+// Container
 .container {
   max-width: $container-width;
   margin: 0 auto;
   padding: 0 $spacing-sm;
 }
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 $spacing-md;
+  }
+}
+
+// Scrollbar Styling
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $surface-color;
+  border-radius: 5px;
+  
+  &:hover {
+    background: $surface-hover;
+  }
+}
+
