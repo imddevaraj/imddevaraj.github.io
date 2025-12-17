@@ -476,3 +476,459 @@ code {
   font-size: 0.85em;
 }
 
+/* Blog Post Styling */
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: $spacing-xl 0;
+  
+  .post-header {
+    margin-bottom: $spacing-xl;
+    padding-bottom: $spacing-md;
+    border-bottom: 1px solid $border-color;
+    animation: fadeInUp $transition-slow ease-out;
+  }
+  
+  .post-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: $spacing-md;
+    color: $text-primary;
+    letter-spacing: -0.02em;
+  }
+  
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    color: $text-muted;
+    font-family: $font-mono;
+    
+    time {
+      color: $text-secondary;
+    }
+  }
+  
+  .post-categories {
+    display: flex;
+    gap: $spacing-xs;
+    flex-wrap: wrap;
+  }
+  
+  .category-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba($accent-color, 0.15);
+    color: $accent-light;
+    border-radius: $radius-sm;
+    border: 1px solid rgba($accent-color, 0.2);
+    font-size: 0.8rem;
+    font-family: $font-mono;
+    transition: all $transition-base;
+    
+    &:hover {
+      background: rgba($accent-color, 0.25);
+      transform: translateY(-2px);
+    }
+  }
+  
+  .post-content {
+    animation: fadeInUp $transition-slow ease-out 200ms backwards;
+    
+    // Improved typography for blog content
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: $spacing-md;
+      color: $text-secondary;
+    }
+    
+    h2 {
+      font-size: clamp(1.6rem, 3vw, 2rem);
+      margin-top: $spacing-xl;
+      margin-bottom: $spacing-md;
+      color: $text-primary;
+      font-weight: 700;
+    }
+    
+    h3 {
+      font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+      margin-top: $spacing-lg;
+      margin-bottom: $spacing-sm;
+      color: $text-primary;
+      font-weight: 600;
+    }
+    
+    h4 {
+      font-size: 1.2rem;
+      margin-top: $spacing-md;
+      margin-bottom: $spacing-sm;
+      color: $accent-light;
+      font-weight: 600;
+    }
+    
+    // Controlled image sizing
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: $radius-md;
+      margin: $spacing-lg auto;
+      display: block;
+      box-shadow: $shadow-md;
+      border: 1px solid $border-color;
+      transition: all $transition-base;
+      
+      // Limit maximum size for large images
+      @media (min-width: 768px) {
+        max-width: 700px;
+      }
+      
+      &:hover {
+        box-shadow: $shadow-lg;
+        transform: scale(1.02);
+      }
+    }
+    
+    // Lists
+    ul, ol {
+      margin-bottom: $spacing-md;
+      padding-left: $spacing-lg;
+      
+      li {
+        margin-bottom: $spacing-sm;
+        line-height: 1.7;
+        color: $text-secondary;
+        font-size: 1.05rem;
+        
+        &::marker {
+          color: $accent-color;
+        }
+      }
+    }
+    
+    ul li {
+      list-style-type: disc;
+    }
+    
+    // Blockquotes in blog posts
+    blockquote {
+      margin: $spacing-lg 0;
+      padding: $spacing-md $spacing-lg;
+      font-size: 1.1rem;
+      
+      p {
+        font-size: 1.1rem;
+        font-style: italic;
+        color: $text-primary;
+      }
+    }
+    
+    // Code blocks in blog posts
+    pre {
+      margin: $spacing-lg 0;
+      font-size: 0.9rem;
+    }
+    
+    code {
+      font-size: 0.9em;
+    }
+    
+    // Links in blog content
+    a {
+      color: $accent-light;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: rgba($accent-color, 0.3);
+      transition: all $transition-base;
+      
+      &:hover {
+        text-decoration-color: $accent-light;
+        color: $accent-color;
+      }
+    }
+    
+    // Strong/Bold text
+    strong, b {
+      color: $text-primary;
+      font-weight: 700;
+    }
+    
+    // Italic text
+    em, i {
+      color: $accent-light;
+      font-style: italic;
+    }
+  }
+  
+  .post-footer {
+    margin-top: $spacing-xl;
+    padding-top: $spacing-md;
+    border-top: 1px solid $border-color;
+    
+    .original-post-note {
+      font-size: 0.95rem;
+      color: $text-muted;
+      font-style: italic;
+      
+      a {
+        color: $accent-light;
+        text-decoration: underline;
+        
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+// Responsive adjustments for mobile
+@media (max-width: 767px) {
+  .blog-post {
+    .post-content {
+      p, li {
+        font-size: 1rem;
+      }
+      
+      img {
+        margin: $spacing-md auto;
+      }
+    }
+  }
+}
+
+/* About Page Styling */
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: $spacing-xl 0;
+  
+  .about-header {
+    display: flex;
+    align-items: center;
+    gap: $spacing-lg;
+    margin-bottom: $spacing-xl;
+    padding-bottom: $spacing-lg;
+    border-bottom: 2px solid $border-color;
+    animation: fadeInUp $transition-slow ease-out;
+    flex-direction: row-reverse;
+    
+    @media (max-width: 767px) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  .about-profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid transparent;
+    background: linear-gradient($bg-color, $bg-color) padding-box,
+                $gradient-accent border-box;
+    box-shadow: $shadow-lg, $shadow-glow;
+    flex-shrink: 0;
+    animation: float 3s ease-in-out infinite;
+    transition: transform $transition-base;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+    
+    @media (max-width: 767px) {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  .about-intro {
+    flex: 1;
+    
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      margin-bottom: $spacing-sm;
+      color: $text-primary;
+    }
+    
+    .lead-text {
+      font-size: 1.15rem;
+      line-height: 1.7;
+      color: $text-secondary;
+      margin-bottom: $spacing-sm;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  .about-content {
+    animation: fadeInUp $transition-slow ease-out 200ms backwards;
+    
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: $spacing-md;
+      color: $text-secondary;
+    }
+    
+    h2 {
+      font-size: clamp(1.6rem, 3vw, 2rem);
+      margin-top: $spacing-xl;
+      margin-bottom: $spacing-md;
+      color: $text-primary;
+      font-weight: 700;
+    }
+    
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: $spacing-sm;
+      color: $accent-light;
+      font-weight: 600;
+    }
+    
+    h4 {
+      font-size: 1.15rem;
+      margin-bottom: $spacing-xs;
+      color: $accent-light;
+      font-weight: 600;
+    }
+    
+    ul {
+      margin-bottom: $spacing-md;
+      padding-left: $spacing-lg;
+      
+      li {
+        margin-bottom: $spacing-sm;
+        line-height: 1.7;
+        color: $text-secondary;
+        font-size: 1.05rem;
+        
+        &::marker {
+          color: $accent-color;
+        }
+      }
+    }
+    
+    strong {
+      color: $text-primary;
+      font-weight: 700;
+    }
+  }
+  
+  .focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: $spacing-md;
+    margin: $spacing-lg 0;
+  }
+  
+  .focus-item {
+    background: $surface-color;
+    padding: $spacing-md;
+    border-radius: $radius-lg;
+    border: 1px solid $border-color;
+    transition: all $transition-base;
+    
+    &:hover {
+      border-color: $accent-color;
+      transform: translateY(-4px);
+      box-shadow: $shadow-lg;
+      
+      h3 {
+        color: $accent-color;
+      }
+    }
+    
+    h3 {
+      font-size: 1.15rem;
+      margin-bottom: $spacing-sm;
+      transition: color $transition-base;
+    }
+    
+    p {
+      font-size: 1rem;
+      margin-bottom: 0;
+      line-height: 1.6;
+    }
+  }
+  
+  .current-work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: $spacing-md;
+    margin: $spacing-lg 0;
+  }
+  
+  .work-item {
+    background: $surface-color;
+    padding: $spacing-md;
+    border-radius: $radius-md;
+    border: 1px solid $border-color;
+    transition: all $transition-base;
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: $gradient-accent;
+      opacity: 0;
+      transition: opacity $transition-base;
+    }
+    
+    &:hover {
+      border-color: $accent-color;
+      transform: translateX(8px);
+      box-shadow: $shadow-md;
+      
+      &::before {
+        opacity: 1;
+      }
+      
+      h4 {
+        color: $accent-color;
+      }
+    }
+    
+    h4 {
+      font-size: 1.1rem;
+      margin-bottom: $spacing-xs;
+      transition: color $transition-base;
+    }
+    
+    p {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+      line-height: 1.6;
+    }
+  }
+  
+  .connect-section {
+    margin-top: $spacing-xl;
+    padding: $spacing-lg;
+    background: $surface-color;
+    border-radius: $radius-lg;
+    border: 1px solid $border-light;
+    text-align: center;
+    
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: $spacing-sm;
+      color: $text-primary;
+    }
+    
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 0;
+    }
+  }
+}

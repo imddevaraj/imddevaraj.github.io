@@ -19,100 +19,126 @@ keywords:
   - Identity and Access Management
 ---
 
-# About Me
+<div class="about-page">
+  <div class="about-header">
+    <img src="/assets/images/profile.png" alt="Devaraj Durairaj" class="about-profile-img">
+    <div class="about-intro">
+      <h1>About Me</h1>
+      <p class="lead-text">Hi, I'm <strong>Devaraj Durairaj</strong> 👋</p>
+      <p class="lead-text">A <strong>Senior Architect and Technology Leader</strong> focused on building <strong>scalable platforms, high-leverage engineering systems, and AI-driven capabilities</strong> across <strong>regulated and fast-moving environments</strong>.</p>
+    </div>
+  </div>
 
-Hi, I’m **Devaraj Durairaj** 👋  
-A **Senior Architect and Technology Leader** focused on building **scalable platforms, high-leverage engineering systems, and AI-driven capabilities** across **regulated and fast-moving environments**.
+  <div class="about-content">
+    <p>I work best where the problems are ambiguous, the stakes are high, and correctness truly matters. My experience spans <strong>banking and financial systems, cloud platforms, distributed systems, identity & access, IoT, and AI</strong> — with a strong bias toward building systems that are <strong>secure, observable, and reliable in production</strong>, not just impressive in demos.</p>
 
-I work best where the problems are ambiguous, the stakes are high, and correctness truly matters. My experience spans **banking and financial systems, cloud platforms, distributed systems, identity & access, IoT, and AI** — with a strong bias toward building systems that are **secure, observable, and reliable in production**, not just impressive in demos.
+    <p>I enjoy operating at the intersection of <strong>architecture, execution, and strategy</strong>, helping organizations turn complex ideas into systems that ship, scale, and sustain under real-world constraints.</p>
 
-I enjoy operating at the intersection of **architecture, execution, and strategy**, helping organizations turn complex ideas into systems that ship, scale, and sustain under real-world constraints.
+    <h2 class="section-title">What I Focus On</h2>
 
----
+    <p>My work centers on <strong>foundational platforms and long-term leverage</strong>, especially in environments where <strong>scale, security, and compliance</strong> are non-negotiable.</p>
 
-## What I Focus On
+    <div class="focus-grid">
+      <div class="focus-item">
+        <h3>Platform & Systems Architecture</h3>
+        <p>Designing cloud-native and distributed architectures that scale with business growth while remaining understandable, auditable, and resilient.</p>
+      </div>
 
-My work centers on **foundational platforms and long-term leverage**, especially in environments where **scale, security, and compliance** are non-negotiable.
+      <div class="focus-item">
+        <h3>Reliability, Observability & Operations</h3>
+        <p>Building observability as a first-class capability — enabling faster decisions, lower MTTR, and confident ownership in production systems.</p>
+      </div>
 
-- **Platform & Systems Architecture**  
-  Designing cloud-native and distributed architectures that scale with business growth while remaining understandable, auditable, and resilient.
+      <div class="focus-item">
+        <h3>AI & Agentic Systems</h3>
+        <p>Moving beyond "AI that generates" to <strong>AI that evaluates, decides, and orchestrates</strong> — including LLM judges, multi-agent workflows, and AI-driven quality gates.</p>
+      </div>
 
-- **Reliability, Observability & Operations**  
-  Building observability as a first-class capability — enabling faster decisions, lower MTTR, and confident ownership in production systems.
+      <div class="focus-item">
+        <h3>Security, Identity & Trust</h3>
+        <p>Architecting secure identity, credential, and access systems, informed by <strong>banking-grade security, risk management, and compliance expectations</strong>.</p>
+      </div>
 
-- **AI & Agentic Systems**  
-  Moving beyond “AI that generates” to **AI that evaluates, decides, and orchestrates** — including LLM judges, multi-agent workflows, and AI-driven quality gates.
+      <div class="focus-item">
+        <h3>Engineering Enablement & Leadership</h3>
+        <p>Creating guardrails, APIs, and standards that help teams move fast <strong>without compromising safety, reliability, or regulatory obligations</strong>.</p>
+      </div>
+    </div>
 
-- **Security, Identity & Trust**  
-  Architecting secure identity, credential, and access systems, informed by **banking-grade security, risk management, and compliance expectations**.
+    <h2 class="section-title">Banking & Regulated Systems Experience</h2>
 
-- **Engineering Enablement & Leadership**  
-  Creating guardrails, APIs, and standards that help teams move fast **without compromising safety, reliability, or regulatory obligations**.
+    <p>My time working in <strong>banking and financial domains</strong> shaped how I think about engineering at scale.</p>
 
----
+    <p>In these environments:</p>
 
-## Banking & Regulated Systems Experience
+    <ul>
+      <li>Failures have <strong>real consequences</strong></li>
+      <li><strong>Data correctness</strong> is critical</li>
+      <li><strong>Security, auditability, and traceability</strong> are mandatory</li>
+      <li>Change must be controlled, but <strong>not paralyzing</strong></li>
+    </ul>
 
-My time working in **banking and financial domains** shaped how I think about engineering at scale.
+    <p>This experience strongly influences how I design systems today — especially around <strong>observability, validation, access control, and AI evaluation</strong>, where trust and explainability matter as much as speed.</p>
 
-In these environments:
+    <h2 class="section-title">How I Approach Leadership & Engineering</h2>
 
-- Failures have **real consequences**
-- **Data correctness** is critical
-- **Security, auditability, and traceability** are mandatory
-- Change must be controlled, but **not paralyzing**
+    <p>I believe strong engineering leadership is about <strong>clarity, leverage, and accountability</strong>.</p>
 
-This experience strongly influences how I design systems today — especially around **observability, validation, access control, and AI evaluation**, where trust and explainability matter as much as speed.
+    <p>Principles I consistently apply:</p>
 
----
+    <ul>
+      <li>Design for scale — in <strong>systems, teams, and processes</strong></li>
+      <li>Make quality <strong>measurable</strong>, not subjective</li>
+      <li>Favor <strong>simple architectures</strong> that survive regulatory and business change</li>
+      <li>Invest early in <strong>observability, contracts, and security</strong></li>
+      <li>Automate decisions, but <strong>keep humans in the loop</strong></li>
+    </ul>
 
-## How I Approach Leadership & Engineering
+    <p>I'm particularly interested in problems where <strong>AI meets platform engineering and regulated systems</strong> — where decisions must be explainable, systems must be trusted, and failures must be diagnosable.</p>
 
-I believe strong engineering leadership is about **clarity, leverage, and accountability**.
+    <h2 class="section-title">What I'm Building & Exploring Now</h2>
 
-Principles I consistently apply:
+    <p>Currently, I'm focused on:</p>
 
-- Design for scale — in **systems, teams, and processes**
-- Make quality **measurable**, not subjective
-- Favor **simple architectures** that survive regulatory and business change
-- Invest early in **observability, contracts, and security**
-- Automate decisions, but **keep humans in the loop**
+    <div class="current-work">
+      <div class="work-item">
+        <h4>AI Quality & Evaluation Systems</h4>
+        <p>Using LLMs as judges to score correctness, groundedness, reasoning depth, and safety — especially for enterprise and regulated use cases.</p>
+      </div>
 
-I’m particularly interested in problems where **AI meets platform engineering and regulated systems** — where decisions must be explainable, systems must be trusted, and failures must be diagnosable.
+      <div class="work-item">
+        <h4>Agentic AI for Platforms</h4>
+        <p>Designing multi-agent systems where planners, executors, retrievers, and judges collaborate to automate operational and decision workflows.</p>
+      </div>
 
----
+      <div class="work-item">
+        <h4>AI-Driven Platform Operations</h4>
+        <p>Applying AI to configuration optimization, telemetry analysis, and self-healing systems.</p>
+      </div>
 
-## What I’m Building & Exploring Now
+      <div class="work-item">
+        <h4>Thought Leadership & Writing</h4>
+        <p>Writing practical, engineering-first content on AI, system design, and leadership — aimed at builders operating in real-world constraints.</p>
+      </div>
+    </div>
 
-Currently, I’m focused on:
+    <h2 class="section-title">Beyond the Role</h2>
 
-- **AI Quality & Evaluation Systems**  
-  Using LLMs as judges to score correctness, groundedness, reasoning depth, and safety — especially for enterprise and regulated use cases.
+    <p>I enjoy breaking down complex systems into <strong>clear mental models</strong>, often using real-world analogies and architecture diagrams. I care deeply about <strong>how systems evolve over time</strong>, particularly in environments where technology, regulation, and business goals intersect.</p>
 
-- **Agentic AI for Platforms**  
-  Designing multi-agent systems where planners, executors, retrievers, and judges collaborate to automate operational and decision workflows.
+    <p>This site is where I share:</p>
 
-- **AI-Driven Platform Operations**  
-  Applying AI to configuration optimization, telemetry analysis, and self-healing systems.
+    <ul>
+      <li>Blogs on <strong>AI, agentic systems, and platform engineering</strong></li>
+      <li><strong>Projects and experiments</strong></li>
+      <li>Perspectives on building <strong>reliable, scalable technology in high-stakes environments</strong></li>
+    </ul>
 
-- **Thought Leadership & Writing**  
-  Writing practical, engineering-first content on AI, system design, and leadership — aimed at builders operating in real-world constraints.
+    <p>If you're building something ambitious — especially in <strong>enterprise, fintech, or AI-powered platforms</strong> — I'm always open to thoughtful conversations.</p>
 
----
-
-## Beyond the Role
-
-I enjoy breaking down complex systems into **clear mental models**, often using real-world analogies and architecture diagrams. I care deeply about **how systems evolve over time**, particularly in environments where technology, regulation, and business goals intersect.
-
-This site is where I share:
-
-- Blogs on **AI, agentic systems, and platform engineering**
-- **Projects and experiments**
-- Perspectives on building **reliable, scalable technology in high-stakes environments**
-
-If you’re building something ambitious — especially in **enterprise, fintech, or AI-powered platforms** — I’m always open to thoughtful conversations.
-
----
-
-📬 **Connect**  
-You can reach me via **LinkedIn**, **GitHub**, or email — links are available in the footer.
+    <div class="connect-section">
+      <h3>📬 Connect</h3>
+      <p>You can reach me via <strong>LinkedIn</strong>, <strong>GitHub</strong>, or email — links are available in the footer.</p>
+    </div>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-12-16T15:55:40+05:30</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Devaraj’s Blog</title><subtitle>My professional blog and portfolio.</subtitle><entry><title type="html">The Future of PACS: Mobile &amp;amp; AI</title><link href="http://0.0.0.0:4000/pacs/technology/2025/12/16/future-of-pacs.html" rel="alternate" type="text/html" title="The Future of PACS: Mobile &amp;amp; AI" /><published>2025-12-16T09:00:00+05:30</published><updated>2025-12-16T09:00:00+05:30</updated><id>http://0.0.0.0:4000/pacs/technology/2025/12/16/future-of-pacs</id><content type="html" xml:base="http://0.0.0.0:4000/pacs/technology/2025/12/16/future-of-pacs.html"><![CDATA[<p>Physical Access Control Systems (PACS) are undergoing a massive transformation. The days of plastic badges and isolated controllers are numbered. We are entering an era of <strong>connected, intelligent access</strong>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-12-17T23:33:36+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Devaraj’s Blog</title><subtitle>My professional blog and portfolio.</subtitle><entry><title type="html">The Future of PACS: Mobile &amp;amp; AI</title><link href="http://localhost:4000/pacs/technology/2025/12/16/future-of-pacs.html" rel="alternate" type="text/html" title="The Future of PACS: Mobile &amp;amp; AI" /><published>2025-12-16T09:00:00+05:30</published><updated>2025-12-16T09:00:00+05:30</updated><id>http://localhost:4000/pacs/technology/2025/12/16/future-of-pacs</id><content type="html" xml:base="http://localhost:4000/pacs/technology/2025/12/16/future-of-pacs.html"><![CDATA[<p>Physical Access Control Systems (PACS) are undergoing a massive transformation. The days of plastic badges and isolated controllers are numbered. We are entering an era of <strong>connected, intelligent access</strong>.</p>
 
 <h2 id="mobile-credentials">Mobile Credentials</h2>
 <p>The phone is the new key. With BLE and NFC adoption, users expect to unlock doors just by walking up to them. This isn’t just convenience; it’s better security through dynamic provisioning.</p>
@@ -6,7 +6,7 @@
 <h2 id="ai-and-anomaly-detection">AI and Anomaly Detection</h2>
 <p>Modern systems ingest streams of data. By applying AI, we can detect anomalies in real-time. Is it normal for this user to access the server room at 3 AM? Behavioral analytics will become the standard for threat detection.</p>
 
-<p>The future is frictionless, secure, and data-driven.</p>]]></content><author><name></name></author><category term="pacs" /><category term="technology" /><summary type="html"><![CDATA[Exploring how mobile credentials and artificial intelligence are reshaping the physical access control landscape.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://0.0.0.0:4000/jekyll/update/2025/12/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-12-15T17:00:00+05:30</published><updated>2025-12-15T17:00:00+05:30</updated><id>http://0.0.0.0:4000/jekyll/update/2025/12/15/welcome-to-jekyll</id><content type="html" xml:base="http://0.0.0.0:4000/jekyll/update/2025/12/15/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>The future is frictionless, secure, and data-driven.</p>]]></content><author><name></name></author><category term="pacs" /><category term="technology" /><summary type="html"><![CDATA[Exploring how mobile credentials and artificial intelligence are reshaping the physical access control landscape.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2025/12/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-12-15T17:00:00+05:30</published><updated>2025-12-15T17:00:00+05:30</updated><id>http://localhost:4000/jekyll/update/2025/12/15/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/12/15/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
@@ -19,51 +19,344 @@
 <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
 </code></pre></div></div>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">LLM as a Judge: A Practical Human Guide for Engineers</title><link href="http://0.0.0.0:4000/ai/llm/engineering/2025/11/26/llm-as-a-judge.html" rel="alternate" type="text/html" title="LLM as a Judge: A Practical Human Guide for Engineers" /><published>2025-11-26T15:30:00+05:30</published><updated>2025-11-26T15:30:00+05:30</updated><id>http://0.0.0.0:4000/ai/llm/engineering/2025/11/26/llm-as-a-judge</id><content type="html" xml:base="http://0.0.0.0:4000/ai/llm/engineering/2025/11/26/llm-as-a-judge.html"><![CDATA[<p>Over the last few years, most discussions around <strong>Large Language Models</strong> have focused on how well they <em>generate</em> things — text, code, explanations, even entire product workflows. But in my day-to-day work with AI systems, I’ve noticed something far more interesting:</p>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">LLM as a Judge: A Practical Human Guide for Engineers</title><link href="http://localhost:4000/ai/llm/engineering/2025/11/26/llm-as-a-judge.html" rel="alternate" type="text/html" title="LLM as a Judge: A Practical Human Guide for Engineers" /><published>2025-11-26T15:30:00+05:30</published><updated>2025-11-26T15:30:00+05:30</updated><id>http://localhost:4000/ai/llm/engineering/2025/11/26/llm-as-a-judge</id><content type="html" xml:base="http://localhost:4000/ai/llm/engineering/2025/11/26/llm-as-a-judge.html"><![CDATA[<p>Over the last few years, most discussions around <strong>Large Language Models</strong> have focused on how well they <em>generate</em> things — text, code, explanations, even entire product workflows. But in my day-to-day work with AI systems, I’ve noticed something far more interesting:</p>
 
-<blockquote>
-  <p>If the first wave of AI was about <strong>“LLMs that answer questions,”</strong> the next wave is increasingly about <strong>“LLMs that evaluate answers.”</strong> In other words, AI is slowly becoming both the student and the examiner.</p>
-</blockquote>
+<p>If the first wave of AI was about “LLMs that answer questions,” the next wave is increasingly about “LLMs that evaluate answers.” In other words, AI is slowly becoming both the student and the examiner</p>
 
-<h2 id="the-shift-to-evaluation">The Shift to Evaluation</h2>
+<p>LLMs are becoming remarkably good at evaluating things, not just producing them.</p>
 
-<p>Why does this matter? As we move from chatbots to agents that take action, <span class="highlight-text">trust becomes the bottleneck</span>. We can’t just hope the model is right; we need systems that can check their own work or the work of others.</p>
+<p>This idea — “LLM as a Judge” — is quietly reshaping how we test models, compare prompts, and build multi-agent systems. And unlike the hype-driven side of AI, this is a place where very real engineering value is being created every single day. It simply means using one large language model to check, score, or compare the answers produced by other models.</p>
 
-<p><strong>LLM-as-a-Judge</strong> is the architectural pattern where we use one model to grade the quality, safety, and relevance of another model’s output.</p>
-
-<h3 id="key-use-cases-bulleted-list">Key Use Cases (Bulleted List)</h3>
-
+<p>So I wanted to break this down in a way that feels natural, relatable, and still deeply technical.
+ <img src="/assets/images/blogs/llm-as-a-judge/1.png" alt="Article content" /></p>
+<h2 id="why-do-we-even-need-ai-judges-a-simple-though-experiment">Why Do We Even Need AI Judges? A Simple Though Experiment</h2>
+<p>Imagine you’re:</p>
 <ul>
-  <li><strong>Regression Testing</strong>: Automatically checking if a new prompt version broke existing functionality.</li>
-  <li><strong>Safety Guardrails</strong>: Real-time evaluation of responses before they reach the user.</li>
-  <li><strong>Data Labeling</strong>: Scaling the creation of training datasets by using AI to label data with high confidence.</li>
+  <li>reviewing 1,000 customer support replies</li>
+  <li>comparing two long technical answers</li>
+  <li>checking whether a model hallucinated</li>
+  <li>choosing between three code snippets for production</li>
+  <li>deciding which prompt version works better</li>
 </ul>
 
-<h3 id="evaluation-criteria-numbered-list">Evaluation Criteria (Numbered List)</h3>
+<p>If you ask five engineers to evaluate these, you’ll get six opinions. Humans judge well, but we judge differently, inconsistently, and slowly.</p>
 
-<ol>
-  <li><strong>Correctness</strong>: Does the answer match the ground truth?</li>
-  <li><strong>Relevance</strong>: Is the answer actually addressing the user’s query?</li>
-  <li><strong>Tone</strong>: Is the response polite and professional?</li>
-  <li><strong>Safety</strong>: Does the response contain PII or harmful content?</li>
-</ol>
+<p>LLMs, surprisingly, can judge with a kind of mechanical fairness when we give them the right guardrails.</p>
 
-<h2 id="code-example-simple-evaluation-prompt">Code Example: Simple Evaluation Prompt</h2>
+<p>The goal isn’t to replace human judgement — but to scale it.</p>
+<h2 id="a-quick-analogy-the-cricket-umpire">A Quick Analogy: The Cricket Umpire</h2>
 
-<p>Here is how you might structure a “Judge” prompt (Indented/Code Block):</p>
+<p>I love this…. Using cricket to explain. When a LBW appealed, the umpire makes a judgement based on rules:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">evaluate_response</span><span class="p">(</span><span class="n">question</span><span class="p">,</span> <span class="n">answer</span><span class="p">):</span>
-    <span class="n">system_prompt</span> <span class="o">=</span> <span class="s">"""
-    You are an expert evaluator. 
-    Grade the following answer on a scale of 1-5 
-    based on helpfulness and accuracy.
-    """</span>
-    
-    <span class="c1"># ... call LLM API ...
-</span>    <span class="k">return</span> <span class="n">score</span>
+<ul>
+  <li>angle</li>
+  <li>height</li>
+  <li>pitch zone</li>
+  <li>bounce</li>
+  <li>impact</li>
+</ul>
+
+<p>Then he signals OUT or NOT OUT.</p>
+
+<ul>
+  <li>It gets a set of criteria (rules)</li>
+  <li>It sees one or more answers (the play)</li>
+  <li>It applies the rules</li>
+  <li>It announces the winner or gives a score</li>
+</ul>
+
+<blockquote>
+  <p>No emotion, No fatigue, No bias. This simple idea forms the foundation of “LLM as a Judge”</p>
+</blockquote>
+
+<h2 id="technically-how-does-an-ai-judge-actually-work">Technically, How Does an AI Judge Actually work</h2>
+
+<p>Here’s the practical, engineer friendly explanation. Every LLM judge pipeline has three pieces</p>
+
+<h3 id="1-the-rubric-the-rulebook">1. The Rubric (The Rulebook)</h3>
+<p>This is the most important part. You define exactly what matters. For example:</p>
+<ul>
+  <li>correctness</li>
+  <li>completeness</li>
+  <li>clarity</li>
+  <li>depth</li>
+  <li>relevance</li>
+  <li>safety</li>
+</ul>
+
+<p>If you change the rubric, you change the judgment — exactly like changing umpiring rules affects how LBWs are decided.</p>
+
+<h3 id="2-the-inputs-the-match-setup">2. The Inputs (The Match Setup)</h3>
+<p>This usually includes:</p>
+<ul>
+  <li>the question</li>
+  <li>one or more answers</li>
+  <li>the rubric</li>
+  <li>any domain knowledge or constraints</li>
+</ul>
+
+<p>Everything the judge needs must be provided here.</p>
+
+<h3 id="3-the-evaluation-the-decision">3. The Evaluation (The Decision)</h3>
+<p>The model then produces:</p>
+<ul>
+  <li>a score (0–10)</li>
+  <li>a ranking (A &gt; B &gt; C)</li>
+  <li>a winner (A or B)</li>
+  <li>a critique (“why this answer?”)</li>
+  <li>safety warnings</li>
+</ul>
+
+<p>This is the part that looks magical, but in reality it’s pattern matching + reasoning + the rubric you provided.</p>
+
+<p><img src="/assets/images/blogs/llm-as-a-judge/2.png" alt="Article content" /></p>
+
+<h2 id="the-different-ways-llms-judge">The Different Ways LLMs Judge</h2>
+
+<p>In practice, engineers use multiple judging styles. Here are the major ones, explained as simply as possible.</p>
+
+<h3 id="1-point-wise-evaluation">1. Point-wise Evaluation</h3>
+
+<p>Judge evaluates a single answer.</p>
+
+<p>Example: Teacher grading one exam paper at a time.</p>
+
+<p>Used for:</p>
+
+<ul>
+  <li>RAG answer quality</li>
+  <li>hallucination checks</li>
+  <li>correctness scoring</li>
+</ul>
+
+<h3 id="2-pair-wise-comparsion-a-vs-b">2. Pair-wise Comparsion (A vs B)</h3>
+
+<p>Judge picks the better option between two answers.</p>
+
+<p>This is the  <strong>most reliable</strong>  evaluation method today.</p>
+
+<p>Example: Two dishes presented to a food critic — he chooses the better one.</p>
+
+<p>Used for:</p>
+
+<ul>
+  <li>prompt A/B testing</li>
+  <li>comparing two model versions</li>
+  <li>multi-agent systems</li>
+  <li>RLHF training</li>
+</ul>
+
+<h3 id="3-list-wise-ranking">3. List-wise Ranking</h3>
+
+<p>Three or more answers ranked.</p>
+
+<p>Example: Ranking three contestants after a singing round.</p>
+
+<p>Used for:</p>
+
+<ul>
+  <li>ranking search results</li>
+  <li>sorting agent responses</li>
+  <li>selecting the best summarisation</li>
+</ul>
+
+<h3 id="4-detailed-rubric-based-scoring">4. Detailed Rubric-Based Scoring</h3>
+
+<p>Judges scores each metric separately.</p>
+
+<p>Example: Gymnastics scoring — difficulty, execution, landing.</p>
+
+<p>Common metrics:</p>
+
+<ul>
+  <li>factual accuracy</li>
+  <li>structure</li>
+  <li>reasoning depth</li>
+  <li>groundedness (for RAG)</li>
+  <li>code complexity</li>
+  <li>readability</li>
+  <li>safety</li>
+</ul>
+
+<p>This is widely used for enterprise QA and fine-tuning pipelines.</p>
+
+<h2 id="the-metrics-behind-the-judgment">The Metrics Behind the Judgment</h2>
+
+<p>Let’s break down key evaluation metrics with everyday analogies:</p>
+
+<h3 id="correctness">Correctness</h3>
+<p>Is the answer true?  <em>Like checking whether a cricket decision follows the laws of the game.</em></p>
+
+<h3 id="relevance">Relevance</h3>
+<p>Does it answer the question asked?  <em>Like asking for a dosa and receiving a pizza.</em></p>
+<h3 id="completeness">Completeness</h3>
+<p>Did it cover all important parts?  <em>Like solving a puzzle but missing a corner piece.</em></p>
+<h3 id="clarity">Clarity</h3>
+<p>Is it easy to read and understand?  <em>Like comparing two handwriting styles — one neat, one… not so much.</em></p>
+<h3 id="reasoning-depth">Reasoning Depth</h3>
+<p>Did it show actual understanding or just surface-level text?  <em>Like comparing a school-level explanation of gravity to a doctorate grad’s version.</em></p>
+<h3 id="groundedness-rag-only">Groundedness (RAG-only)</h3>
+<p>Is the answer supported by the provided documents?  <em>Open book exam: no marks for answers not from the book.</em></p>
+<h3 id="safety">Safety</h3>
+<p>Does the reply avoid harm or biased suggestions?  <em>Like an umpire making sure the game stays fair and within rules.</em></p>
+
+<h2 id="where-llm-judges-are-actually-useful-today">Where LLM Judges Are actually Useful Today</h2>
+
+<p>Here are real scenarios where engineering teams use LLM judges every day:</p>
+
+<ul>
+  <li>Comparing two prompt versions</li>
+  <li>Detecting hallucinations</li>
+  <li>Ranking multi-agent outputs</li>
+  <li>Self-healing RAG pipelines</li>
+  <li>Code review and static analysis</li>
+  <li>Evaluating interview answers</li>
+  <li>Auto-grading assignments</li>
+  <li>Safety filtering for content</li>
+  <li>Evaluating embeddings or search relevance</li>
+  <li>Regression tests for model updates</li>
+</ul>
+
+<p>The moment your AI system has  <strong>two or more possible outputs</strong>, a judge becomes essential.</p>
+
+<h2 id="how-llm-judges-fit-into-multi-agent-workflows">How LLM Judges Fit into Multi-Agent Workflows</h2>
+
+<p>Modern AI systems often run like small teams.</p>
+
+<p><img src="/assets/images/blogs/llm-as-a-judge/3.png" alt="Article content" /></p>
+
+<p>The judge here acts like:</p>
+
+<ul>
+  <li>a referee</li>
+  <li>a senior reviewer</li>
+  <li>a consistency checker</li>
+  <li>a safety gatekeeper</li>
+</ul>
+
+<p>It ensures outputs don’t slip through with mistakes or hallucinations.</p>
+
+<p>Without a judge, multi-agent workflows become chaotic very quickly.</p>
+
+<h2 id="best-practices">Best Practices</h2>
+
+<p>Here are the tips that makes a big difference:</p>
+
+<ul>
+  <li>Use a different model to judge than the one generating — No “Self Marking”</li>
+  <li>Pairwise evaluation is the most stable method — Especially for prompt A/B tests.</li>
+  <li>Force structured scoring + written justification — This makes judgement more reliable and explainable.</li>
+  <li>Avoid vague rubrics — Be precise, Evaluate clarity and Is the answer understandable to a specific community or grade</li>
+  <li>For risk tasks, use ensemble judges — With Three judges on major vote</li>
+  <li>For RAG: always include grounding checks — prevents “confident hallucination”.</li>
+</ul>
+
+<h2 id="real-world-example">Real World Example</h2>
+
+<p>Imagine you work in a company that has built a  <strong>customer-support chatbot</strong>  using a  <strong>RAG (Retrieval-Augmented Generation)</strong>  pipeline. A customer asks:</p>
+
+<p><strong>User Question:</strong>  “Can I upgrade my subscription before the billing cycle ends?”</p>
+
+<p>The system retrieves documents and generates  <strong>two different answers</strong>  because you are A/B testing two prompt versions.</p>
+
+<h3 id="-candidate-answer-a">🔹 Candidate Answer A</h3>
+
+<p>“Yes, you can upgrade at any time. A new billing cycle will begin immediately when you upgrade.”</p>
+
+<h3 id="-candidate-answer-b">🔹 Candidate Answer B</h3>
+
+<p>“You can upgrade your subscription, but the new price will only apply from the next billing cycle. Until then your current plan remains active.”</p>
+
+<p>Now you need the model to decide which answer is correct according to the official policy.</p>
+
+<p>So you give the LLM Judge:</p>
+
+<ul>
+  <li>the user’s question</li>
+  <li>Answer A</li>
+  <li>Answer B</li>
+  <li>the official subscription policy</li>
+  <li>the evaluation rubric</li>
+</ul>
+
+<p>Here’s the  <strong>actual rubric</strong>  used in industry:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Evaluate each answer on:
+1. Correctness (must match official policy)
+2. Groundedness (supported by provided documents)
+3. Clarity
+4. Completeness
+5. Safety (no misleading info)
+
+Give:
+- A score per metric
+- A winner (A or B)
+- A short explanation
 </code></pre></div></div>
 
-<p>The future of engineering with AI isn’t just about prompt engineering; it’s about <strong>evaluation engineering</strong>.</p>
+<h2 id="llm-judge-output-realistic-example">LLM Judge Output (Realistic Example)</h2>
 
-<hr />
-<p><em>This post was originally published on <a href="https://www.linkedin.com/pulse/llm-judge-practical-human-guide-engineers-devaraj-durairaj-nzr2c/">LinkedIn</a>.</em></p>]]></content><author><name></name></author><category term="ai" /><category term="llm" /><category term="engineering" /><summary type="html"><![CDATA[Why the next wave of AI is about models that evaluate answers, not just generate them.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://0.0.0.0:4000/assets/images/blogs/llm-as-a-judge/thumbnail.png" /><media:content medium="image" url="http://0.0.0.0:4000/assets/images/blogs/llm-as-a-judge/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Here’s how the judge typically responds — and this is the “magical” part people assume is AI wizardry, but it’s actually a structured scoring and reasoning process.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>==========================================
+| Metric       | Answer A     | Answer B |
+------------------------------------------
+| Correctness  |  2/10        |  9/10    |
+| Groundedness |  1/10        |  9/10    |
+| Clarity      |  8/10        |  8/10    |
+| Completeness |  4/10        |  7/10    |
+| Safety       |  3/10        |  9/10    |
+==========================================
+</code></pre></div></div>
+
+<h3 id="winner-answer-b">Winner: Answer B</h3>
+
+<p><strong>Justification:</strong>  “Answer A contradicts the subscription policy. The policy states that pricing changes only take effect from the next billing cycle. Answer B correctly reflects this, remains grounded in the provided documents, and avoids making misleading claims about billing recalculation.”</p>
+
+<h2 id="the-future-judges-will-become-the-quality-engine-of-ai-systems">The Future: Judges Will Become the “Quality Engine” of AI Systems</h2>
+
+<p>As models get bigger and outputs get more complex:</p>
+
+<h3 id="llm-judges-will-be-used-for">LLM Judges will be used for:</h3>
+
+<ul>
+  <li>Autonomous QA for AI applications</li>
+  <li>Policy compliance enforcement</li>
+  <li>Model version benchmarking</li>
+  <li>Automatic scoring of reasoning quality</li>
+  <li>Fine-grained hallucination detection</li>
+  <li>Multi-agent orchestration</li>
+  <li>Safety gatekeeping</li>
+</ul>
+
+<p>And eventually:</p>
+
+<blockquote>
+  <p><strong><em>Every AI agent will need a judge agent beside it — like how every sport needs a referee.</em></strong></p>
+</blockquote>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+
+<p>The more I work with LLM-based systems, the more I believe this:</p>
+
+<blockquote>
+  <p><em>The future of AI doesn’t just depend on how well models</em> create_, but how consistently they can_ evaluate_._</p>
+</blockquote>
+
+<p>LLM judges bring:</p>
+
+<ul>
+  <li>structure</li>
+  <li>fairness</li>
+  <li>reliability</li>
+  <li>scale</li>
+  <li>and a surprising amount of engineering rigor</li>
+</ul>
+
+<p>to a space that was previously governed by subjective human opinions.</p>
+
+<p>And if the last decade was about “AI that generates,” the next one will be about  <strong>AI that judges, approves, filters, and assures quality</strong>.</p>
+
+<blockquote>
+  <p>Every AI system will eventually need a judge —  just like every sport needs an umpire.</p>
+</blockquote>]]></content><author><name></name></author><category term="ai" /><category term="llm" /><category term="engineering" /><summary type="html"><![CDATA[Why the next wave of AI is about models that evaluate answers, not just generate them.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/blogs/llm-as-a-judge/1.png" /><media:content medium="image" url="http://localhost:4000/assets/images/blogs/llm-as-a-judge/1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
