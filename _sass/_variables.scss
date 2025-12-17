@@ -1,18 +1,18 @@
-// Color Palette - Sophisticated Dark Theme
-$bg-color: #0a0e1a;
-$bg-secondary: #0f172a;
-$surface-color: #1a1f35;
-$surface-hover: #1e293b;
-$surface-light: #334155;
-$text-primary: #f8fafc;
-$text-secondary: #94a3b8;
-$text-muted: #64748b;
-$accent-color: #3b82f6;
-$accent-hover: #2563eb;
-$accent-light: #60a5fa;
-$accent-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-$border-color: #1e293b;
-$border-light: #334155;
+// Color Palette - Dark Theme with Gold Accents
+$bg-color: #000000;
+$bg-secondary: #1a1a1a;
+$surface-color: #1e1e1f;
+$surface-hover: #2a2a2b;
+$surface-light: #353535;
+$text-primary: #ffffff;
+$text-secondary: #bdbdbd;
+$text-muted: #808080;
+$accent-color: #FFB400;
+$accent-hover: #FFC533;
+$accent-light: #FFCC66;
+$accent-gradient: linear-gradient(135deg, #FFB400 0%, #FFC533 100%);
+$border-color: #2a2a2b;
+$border-light: #353535;
 $code-bg: #0f1419;
 
 // Success/Warning colors for future use
@@ -20,9 +20,9 @@ $success-color: #10b981;
 $warning-color: #f59e0b;
 
 // Gradients
-$gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-$gradient-accent: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-$gradient-text: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+$gradient-primary: linear-gradient(135deg, #FFB400 0%, #FFC533 100%);
+$gradient-accent: linear-gradient(135deg, #FFB400 0%, #FFC533 100%);
+$gradient-text: linear-gradient(135deg, #FFB400 0%, #FFCC66 100%);
 
 // Shadows
 $shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
